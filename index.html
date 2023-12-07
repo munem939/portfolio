@@ -1,0 +1,272 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Muhammad Ali Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+
+    <style>
+        .linkedinlogo {
+			text-align: right;
+		}
+		
+		#banner h1,
+        #banner ul.actions li a {
+            text-transform: capitalize;
+        }
+
+		#banner ul.actions li a.button {
+        font-size: 13px; /* Adjust the font size as needed */
+    	}
+
+        #banner p {
+            text-transform: none; /* This ensures normal text */
+        }
+
+        /* Add this style to justify the text within the <p> elements */
+        .posts article p {
+            text-align: justify;
+        }
+
+        .features article {
+            display: flex;
+            align-items: center;
+        }
+
+        .features article img {
+            max-width: 50px; /* Adjust the maximum width */
+            height: auto;
+            margin-right: 10px; /* Adjust the margin as needed */
+        }
+
+        .features article h3 {
+            margin: 0;
+        }
+
+		.features {
+		text-align: center;
+		}
+
+		.skill-button {
+		display: inline-block;
+		width: 600px;
+		height: 70px;
+		padding: 10px;
+		border: 2px solid rgb(232, 233, 235);
+		border-radius: 10px;
+		background-color: rgb(224, 142, 18);
+		background: linear-gradient(45deg, #ffffff, #e6e6e6);
+		color: #ffffff;
+		text-align: center;
+		text-decoration: none;
+		font-size: 16px;
+		position: relative;
+		overflow: hidden;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		}
+
+		.skill-button img {
+		max-width: 40px;
+		max-height: 40px;
+		border-radius: 5px;
+		margin-bottom: 5px;
+		}
+
+		.skill-button:hover {
+		border: 3px solid rgb(245, 106, 106); /* Adjust the thickness and color as needed */
+		}
+
+    </style>
+
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo"><strong>Muhammad Ali Portfolio Homepage</strong></a>
+									<a href="https://www.linkedin.com/in/mali939/" class="logo linkedinlogo"><strong>LinkedIn</strong></a>
+								</header>
+
+							<!-- Banner -->
+								<section id="banner">
+									<div class="content">
+										<header>
+											<h1>Hello, I’m Muhammad!<br/>
+											 Welcome to my portfolio!</h1>
+										</header>
+										<p style="font-size: 1em; color: black;">
+											I am a dedicated data analyst with a Ph.D. in nanotechnology, blending a strong analytical foundation with extensive experience as a lead data analyst and research analyst.
+											My published work in scientific journals attests to my analytical capabilities.
+											Proficient in SQL, Tableau, Excel, and Python, I specialize in guiding organizations through the entire data journey — from precise data capture to impactful insights presentation.
+											On my website, you'll find diverse examples of my data analysis expertise, featuring insightful visualizations and strategic decision support.</p>
+										<p style="font-size: 1em; color: black;">
+												I am available for short-term projects and part-time longer-term engagements.
+											For inquiries or collaboration opportunities, please reach out to me by e-mail and you can find my resume below.</p>
+										<p style="font-size: 1.1em; color: black;"><strong>
+												Tel: (+44) 07471 935596<br/>Email: munemali939@gmail.com</strong></p>
+										<ul class="actions">
+											<li><a href="#" class="button big" id="resumeButton">My Resumé</a></li>
+											<li><a href="#" class="button big" id="emailButton">Contact Me via Email</a></li>
+										</ul>
+									</div>
+									<span class="image object">
+										<img src="images/profilepic.png" alt="Profile Picture" />
+									</span>
+								</section>
+
+							<!-- Open CV and Email-->
+
+								<script>
+									// Function to open the PDF resume
+									function openResume() {
+										// Replace 'path/to/your/resume.pdf' with the actual path to your PDF file
+										window.open('assets/resume/resume.pdf', '_blank');
+									}
+							
+									// Function to prompt the user to email you
+									function contactByEmail() {
+										// Replace 'your@email.com' with your actual email address
+										var emailAddress = 'munemali939@gmail.com';
+										
+										// Prompt to compose an email
+										window.location.href = 'mailto:' + emailAddress;
+									}
+							
+									// Add click event listeners to the buttons
+									document.getElementById('resumeButton').addEventListener('click', openResume);
+									document.getElementById('emailButton').addEventListener('click', contactByEmail);
+								</script>
+
+							<section>
+								<header class="major">
+									<h2>Featured Projects</h2>
+								</header>
+								<div class="posts">
+									<!-- Content for "Analysis of US Adidas Sales Using Power Pivot" -->
+									<article>
+										<a href="AdidasSalesProject.html" class="image"><img src="images/AdidasSalesBanner.png" alt="" /></a>
+										<h3>Analysis of US Adidas Sales</h3>
+										<p>This project utilizes Power Pivot in Excel to uncover essential patterns and insights of US Adidas sales. The analysis examines the landscape of in-store and online sales among major retailers,
+											highlighting trends and offering valuable observations that contribute to a comprehensive understanding of the sportswear market.</p>
+										<ul class="actions">
+											<li><a href="AdidasSalesProject.html" class="button">More</a></li>
+										</ul>
+									</article>
+									<!-- Content for "Automated Python Script for Spectroscopic Mapping" -->
+									<article>
+										<a href="RamanScriptProject.html" class="image"><img src="images/RamanScriptBanner.png" alt="" /></a>
+										<h3>Automated Python Script for Spectroscopic Mapping</h3>
+										<p>This Python script analyzes Raman spectroscopy data stored in thousands .txt files. It computes the intensity ratio between two peaks, found within each file, and generates a filled contour plot.
+											The dimensions of the plot and the ratio representation for each mapping point are determined by extracting x and y coordinates from the file names.</p>
+										<ul class="actions">
+											<li><a href="RamanScriptProject.html" class="button">More</a></li>
+										</ul>
+									</article>
+									<!-- Content for "Market Trend Analysis of Video Game Sales" -->
+									<article>
+										<a href="VideoGamesProject.html" class="image"><img src="images/VideoGamesAnalysisBanner.png" alt="" /></a>
+										<h3>Exploratory Data Analysis of Video Game Sales</h3>
+										<p>This report aims to present a comprehensive analysis of the video game sales dataset, integrating SQL queries for data preprocessing and Python code for data visualization.
+											The report covers initial data cleaning, merging, export, and subsequent analysis using SQL and Tableau, with additional insights from Python scripts.</p>
+										<ul class="actions">
+											<li><a href="VideoGamesProject.html" class="button">More</a></li>
+										</ul>
+									</article>
+									<!-- Content for "Navigating Technological Shifts in Computing Power" -->
+									<article>
+										<a href="CPUGPUProject.html" class="image"><img src="images/CPUGPUBanner.png" alt="" /></a>
+										<h3>Navigating Technological Shifts in Computing Power</h3>
+										<p>This project showcases my proficiency with Python, Excel, and Tableau, and aims to delve into the intricate details of semiconductor trends,
+											with a specific focus on the evolution of CPU and GPU technologies.</p>
+										<ul class="actions">
+											<li><a href="CPUGPUProject.html" class="button">More</a></li>
+										</ul>
+									</article>
+
+								</div>
+							</section>
+							
+
+							<!-- Section -->
+							<section>
+								<header class="major">
+								  <h2>Skills</h2>
+								</header>
+								<div class="features">
+								  <article>
+									<a href="https://www.mysql.com/" target="_blank" class="skill-button">
+									  <img src="images/SQL.svg" alt="SQL Icon">
+									  <div class="content">
+										<h3>SQL</h3>
+									  </div>
+									</a>
+								  </article>
+								  <article>
+									<a href="https://www.microsoft.com/en-gb/microsoft-365/excel" target="_blank" class="skill-button">
+									  <img src="images/Excel.svg" alt="Microsoft Excel Icon">
+									  <div class="content">
+										<h3>Microsoft Excel</h3>
+									  </div>
+									</a>
+								  </article>
+								  <article>
+									<a href="https://www.python.org/" target="_blank" class="skill-button">
+									  <img src="images/Python.svg" alt="Python Icon">
+									  <div class="content">
+										<h3>Python</h3>
+									  </div>
+									</a>
+								  </article>
+								  <article>
+									<a href="https://public.tableau.com/app/discover" target="_blank" class="skill-button">
+									  <img src="images/Tableau.svg" alt="Tableau Icon">
+									  <div class="content">
+										<h3>Tableau</h3>
+									  </div>
+									</a>
+								  </article>
+								  <article>
+									<a href="https://www.microsoft.com/en-gb/microsoft-365/word" target="_blank" class="skill-button">
+									  <img src="images/Word.svg" alt="Microsoft Word Icon">
+									  <div class="content">
+										<h3>Microsoft Word</h3>
+									  </div>
+									</a>
+								  </article>
+								  <article>
+									<a href="https://www.microsoft.com/en-gb/microsoft-365/powerpoint" target="_blank" class="skill-button">
+									  <img src="images/PowerPoint.svg" alt="Microsoft PowerPoint Icon">
+									  <div class="content">
+										<h3>Microsoft PowerPoint</h3>
+									  </div>
+									</a>
+								  </article>
+								</div>
+							  </section>
+							  
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

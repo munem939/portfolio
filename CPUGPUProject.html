@@ -1,0 +1,426 @@
+<!DOCTYPE HTML>
+<!--
+    Editorial by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js"></script>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>CPUGPUProject</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+        .linkedinlogo {
+			text-align: right;
+		}
+
+		
+		h1 {
+            text-align: left; /* Set the title to be left-aligned */
+        }
+
+        section *:not(.main-title, .chapter-title) {
+            font-size: 16px;
+        }
+
+		.chapter-title {
+			font-size: 22px;
+			text-decoration: underline;
+		}
+
+        body {
+            font-family: Arial, sans-serif;
+            text-align: justify;
+            line-height: 1.6;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto; /* Center the image */
+            max-width: 100%; /* Make sure the image doesn't exceed its container */
+            height: auto; /* Maintain aspect ratio */
+            width: 450px; /* Set a specific width for the image */
+        }
+
+		.ramanscript {
+			max-width: 100%; /* Make sure the image doesn't exceed its container */
+			width: 1500px; /* Set a specific width for the image */
+        }
+
+        .bordered-image {
+            border: 1px solid black;
+		}
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2; /* Gray background for table header */
+        }
+
+        #table-of-contents {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        #table-of-contents h2 {
+            margin-bottom: 10px;
+        }
+
+        #table-of-contents ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+		#table-of-contents li a {
+    		color: black;
+    		font-size: 14px;
+		}
+		
+		.CPUGPUSummariseCode {
+			display: inline-block;
+			vertical-align: top; /* Align images at the top */
+        	margin-right: 10px; /* Adjust the margin as needed to provide space between images */
+			max-width: 100%; /* Make sure the image doesn't exceed its container */
+			width: 350px; /* Set a specific width for the image */
+		}
+
+		.SQLMergeCode {
+			display: inline-block;
+			vertical-align: top; /* Align images at the top */
+        	margin-right: 10px; /* Adjust the margin as needed to provide space between images */
+			max-width: 100%; /* Make sure the image doesn't exceed its container */
+			width: 550px; /* Set a specific width for the image */
+		}
+
+		.SQLCode {
+			display: inline-block;
+			vertical-align: top; /* Align images at the top */
+        	margin-right: 10px; /* Adjust the margin as needed to provide space between images */
+			max-width: 100%; /* Make sure the image doesn't exceed its container */
+			width: 500px; /* Set a specific width for the image */
+		}
+
+		.SQLCode1 {
+			display: inline-block;
+			vertical-align: top; /* Align images at the top */
+        	margin-right: 10px; /* Adjust the margin as needed to provide space between images */
+			max-width: 100%; /* Make sure the image doesn't exceed its container */
+			width: 650px; /* Set a specific width for the image */
+		}
+
+		.SQLCode2 {
+			display: inline-block;
+			vertical-align: top; /* Align images at the top */
+        	margin-right: 10px; /* Adjust the margin as needed to provide space between images */
+			max-width: 100%; /* Make sure the image doesn't exceed its container */
+			width: 275px; /* Set a specific width for the image */
+		}
+
+		.SQLCode3 {
+			display: inline-block;
+			vertical-align: top; /* Align images at the top */
+        	margin-right: 10px; /* Adjust the margin as needed to provide space between images */
+			max-width: 100%; /* Make sure the image doesn't exceed its container */
+			width: 450px; /* Set a specific width for the image */
+		}
+
+        .tableauContainer {
+			max-width: 1020px; /* Adjust the maximum width as needed */
+            margin: 0 auto; /* Center the container */
+            border: 1px solid #000000; /* Add a border around the container */
+            padding: 10px; /* Optional: Add padding for better visual appearance */
+        }
+
+		.VideoGamesAnalysis {
+			display: inline-block;
+			vertical-align: top; /* Align images at the top */
+        	margin-right: 10px; /* Adjust the margin as needed to provide space between images */
+			max-width: 100%; /* Make sure the image doesn't exceed its container */
+			width: 500px; /* Set a specific width for the image */
+		}
+
+		.features {
+		text-align: center;
+		}
+
+		.skill-button {
+		display: inline-block;
+		width: 600px;
+		height: 70px;
+		padding: 10px;
+		border: 2px solid rgb(232, 233, 235);
+		border-radius: 10px;
+		background-color: rgb(224, 142, 18);
+		background: linear-gradient(45deg, #ffffff, #e6e6e6);
+		color: #ffffff;
+		text-align: center;
+		text-decoration: none;
+		font-size: 16px;
+		position: relative;
+		overflow: hidden;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		}
+
+		.skill-button img {
+		max-width: 40px;
+		max-height: 40px;
+		border-radius: 5px;
+		margin-bottom: 5px;
+		}
+
+		.skill-button:hover {
+		border: 3px solid rgb(245, 106, 106); /* Adjust the thickness and color as needed */
+		}
+
+    </style>
+</head>
+
+<body class="is-preload">
+
+<!-- Wrapper -->
+<div id="wrapper">
+
+    <!-- Main -->
+    <div id="main">
+        <div class="inner">
+
+            <!-- Header -->
+            <header id="header">
+                <a href="index.html" class="logo"><strong>Muhammad Ali Portfolio Homepage</strong></a>
+				<a href="https://www.linkedin.com/in/mali939/" class="logo linkedinlogo"><strong>LinkedIn</strong></a>
+            </header>
+
+			<header class="main">
+				<h1 class="main-title"><br/>Navigating Technological Shifts in Computing Power</h1>
+			</header>
+
+            <!-- Table of Contents -->
+            <div id="table-of-contents" class="tableofcontents">
+                <h2>Table of Contents</h2>
+                <ul>
+                    <li><a href="#tasks">Task</a></li>
+					<li><a href="#tools">Tools Utilised</a></li>
+                    <li><a href="#background">Background</a></li>
+					<li><a href="#datacleaning">Data Cleaning and Integration</a></li>
+                    <li><a href="#output">Key Findings and Visualizations</a></li>
+					<li><a href="#conclusion">Conclusion</a></li>
+                </ul>
+            </div>
+
+            <!-- Tasks -->
+            <section id="task">
+				<header class="main">
+					<h1 class="chapter-title">Task</h1>
+				</header>
+				<p>This project embarks on an in-depth exploration of the swiftly evolving semiconductor landscape, scrutinizing the developmental trends in Central Processing Units (CPUs) and Graphics Processing Units (GPUs) over time.</p>
+				<p>The original data contained 4,853 data entries and was obtained from <a href="https://www.kaggle.com/datasets/michaelbryantds/cpu-and-gpu-product-data/data" target="_blank">Kaggle</a>.</p>
+				<p>My responsibilities involves investigating the intricate relationships between process node reduction, transistor count escalation, and Thermal Design Power (TDP) evolution, explaining how these factors intricately shape the performance and efficiency of processors.</p>
+			</section>
+
+
+			<!-- Tools -->
+			<section id="tools">
+				<header class="main">
+					<h1 class="chapter-title">Tools Utilised</h1>
+				</header>
+				<div class="features">
+				  <article>
+					<a href="https://www.microsoft.com/en-gb/microsoft-365/excel" target="_blank" class="skill-button">
+					  <img src="images/Excel.svg" alt="Microsoft Excel Icon">
+					  <div class="content">
+						<h3>Microsoft Excel</h3>
+					  </div>
+					</a>
+				  </article>
+				  <article>
+					<a href="https://www.python.org/" target="_blank" class="skill-button">
+					  <img src="images/Python.svg" alt="Python Icon">
+					  <div class="content">
+						<h3>Python</h3>
+					  </div>
+					</a>
+				  </article>
+				  <article>
+					<a href="https://public.tableau.com/app/discover" target="_blank" class="skill-button">
+					  <img src="images/Tableau.svg" alt="Tableau Icon">
+					  <div class="content">
+						<h3>Tableau</h3>
+					  </div>
+					</a>
+				  </article>
+				</div>
+			  </section>
+
+            <!-- Background -->
+            <section id="background">
+				<header class="main">
+					<h1 class="chapter-title">Background</h1>
+				</header>
+				<p>Semiconductor technology is in a constant state of evolution, with CPUs and GPUs at the forefront. This analysis delves into the rapidly evolving landscape of semiconductor technology, examining trends in CPU and GPU development over time.
+					It explores the intricate connections between process node reduction, transistor count escalation, and Thermal Design Power (TDP) evolution, shedding light on how these factors shape the performance and efficiency of processors.</p>
+					
+				<p>TDP, or Thermal Design Power, is a crucial metric representing the maximum heat a computer component can generate under any workload. Expressed in watts (W), TDP guides the design of cooling systems to prevent overheating. Smaller process
+					nodes allow for more transistors to be packed onto the same space, contributing to improved performance and energy efficiency.</p>
+			</section>
+
+            <!-- Data Cleaning and Integration -->
+            <section id="datacleaning">
+				<header class="main">
+					<h1 class="chapter-title">Data Cleaning and Integration</h1>
+				</header>
+
+				<p><strong>1. Summarising data and identifying any invalid entries within both datasets</strong></p>
+				<ul>
+					<li>From both datasets, using Excel's filter function, a total of 75 data entries have "NaT" in the "Release Date" column.</li>
+					<li>If the data is from a stakeholder, I'd seek clarification and discuss with the team and stakeholder. Collaboratively deciding the best approach for effective analysis, ensuring informed decisions based on the available dataset.</li>
+					<li>Through comprehensive research and literature review, CPUs that were not released were appropriately labeled as 'Never Released' in the dataset. This meticulous approach ensures transparency in data representation, providing an accurate foundation for subsequent analysis and decision-making processes..</li>
+				</ul>
+
+				<p>A Python script was developed, utilising Pandas, to summarises key insights for each heading in the dataset, offering valuable information on the data types for each header and how many blank spaces are present in the dataset.</p>
+
+				<div style="text-align: center;">
+					<img class="CPUGPUSummariseCode" src="assets/python/CPUGPUSummarise.png" alt="CPUGPUSummariseScript">
+					<img class="CPUGPUSummariseCode" src="assets/python/CPUGPUSummarise1.png" alt="CPUGPUSummariseOutput1">
+					<img class="CPUGPUSummariseCode" src="assets/python/CPUGPUSummarise2.png" alt="CPUGPUSummariseOutput2">
+				</div><br/>
+				
+				<p><strong>2. Enhancing Dataset Insights with "Company" Information</strong></p>
+				<ul>
+					<li>Integrated a dedicated data column to highlight the prominent CPU and GPU manufacturers in a competitive marketplace.</li>
+					<li>Implemented a formula, <strong>"=IF(ISNUMBER(FIND(" ",B2)),LEFT(B2,FIND(" ",B2)-1),B2)"</strong>, to dynamically extract and display the company name responsible for each CPU/GPU product listed in the "Product" column. This addition enhances the dataset's granularity and supports a more nuanced analysis of industry dynamics.</li>
+				</ul>
+
+			</section>
+			
+            <!-- Key Findings and Visualizations -->
+            <section id="output">
+				<header class="main">
+					<h1 class="chapter-title">Key Findings and Visualizations</h1>
+				</header>
+				<p><strong>CPU Process Node and Transistor Count:</strong></p>
+				<ul>
+				  <li>Relentless pursuit of smaller process nodes and higher transistor counts drives CPU innovation.</li>
+				  <li>Consistent decrease in average CPU process node size over time indicates industry success in reducing transistor size.</li>
+				  <li>Reduction aligns with Moore's Law, reflecting an exponential increase in transistor count.</li>
+				  <li>Reduction in process node size, coupled with increased transistor count, signifies improved performance and energy-efficient design.</li>
+				  <li>AMD's aggressive adoption of TSMC's 14 and 7nm process node signifies a strategic leap forward after 2017, whilst Intel's fabs stagnate at 14nm, potentially hindering scalability and contributing to contrasting TDP trends.</li>
+				  <li>Despite process node constraints, Intel consistently enhances CPU performance through architectural innovations, showcasing commitment and competitiveness.</li>
+				</ul>
+				
+				<p><strong>CPU TDP Trends:</strong></p>
+				<ul>
+				  <li>Correlation between CPU TDP trends and manufacturing is evident.</li>
+				  <li>AMD's embrace of smaller process nodes results in CPUs with higher transistor counts, demonstrating improved computational capabilities and enhanced energy efficiency.</li>
+				  <li>Divergence in TDP trends between AMD and Intel underscores the critical role of manufacturing strategy in balancing performance and power consumption.</li>
+				</ul>
+				
+				<p><strong>GPU Process Node and Transistor Count:</strong></p>
+				<ul>
+				  <li>GPUs exhibit a relentless pursuit of smaller process nodes and increased transistor counts.</li>
+				  <li>Inclusion of ATI's GPUs in the analysis, post-acquisition by AMD in 2006, provides a comprehensive view of AMD's graphics technology evolution.</li>
+				  <li>Both AMD and NVIDIA GPUs align with the industry trend, showcasing advancements in manufacturing technology.</li>
+				</ul>
+				
+				<p><strong>GPU TDP Trends:</strong></p>
+				<ul>
+				  <li>Steady increase in GPU TDP over time reflects the industry's response to escalating consumer demands for graphics performance.</li>
+				  <li>NVIDIA GPUs experience a significant rise in TDP.</li>
+				  <li>AMD's post-acquisition period initially displays a high TDP that gradually decreases before rising again.</li>
+				  <li>Managing TDP in GPUs is intricately tied to advancements in manufacturing technology, similar to CPUs.</li>
+				</ul>
+
+			<div class='tableauContainer'>
+				<div class='tableauPlaceholder' id='viz1701893223583' style='position: relative'>
+					<noscript>
+					  <a href='#'>
+						<img alt='Dashboard 1' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CP&#47;CPUandGPUPerformancesDataset&#47;Dashboard1&#47;1_rss.png' style='border: none' />
+					  </a>
+					</noscript>
+					<object class='tableauViz' style='display:none;'>
+					  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+					  <param name='embed_code_version' value='3' />
+					  <param name='site_root' value='' />
+					  <param name='name' value='CPUandGPUPerformancesDataset&#47;Dashboard1' />
+					  <param name='tabs' value='no' />
+					  <param name='toolbar' value='yes' />
+					  <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CP&#47;CPUandGPUPerformancesDataset&#47;Dashboard1&#47;1.png' />
+					  <param name='animate_transition' value='yes' />
+					  <param name='display_static_image' value='yes' />
+					  <param name='display_spinner' value='yes' />
+					  <param name='display_overlay' value='yes' />
+					  <param name='display_count' value='yes' />
+					  <param name='language' value='en-US' />
+					</object>
+				  </div>
+				  <script type='text/javascript'>
+					var divElement = document.getElementById('viz1701893223583');
+					var vizElement = divElement.getElementsByTagName('object')[0];
+					if (divElement.offsetWidth > 800) {
+					  vizElement.style.width = '1024px';
+					  vizElement.style.height = '827px';
+					} else if (divElement.offsetWidth > 500) {
+					  vizElement.style.width = '1024px';
+					  vizElement.style.height = '827px';
+					} else {
+					  vizElement.style.width = '100%';
+					  vizElement.style.height = '1427px';
+					}
+					var scriptElement = document.createElement('script');
+					scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+					vizElement.parentNode.insertBefore(scriptElement, vizElement);
+				  </script>
+				</div>
+			</section>
+		
+
+						<!-- Conclusion -->
+						<section id="conclusion">
+							<header class="main">
+								<h1 class="chapter-title">Conclusion</h1>
+							</header>
+						
+		
+				<p>The intricate interplay between CPU and GPU technological trends reveals the pivotal role of semiconductor manufacturing in shaping performance, efficiency, and
+					power consumption. AMD's strategic adoption of smaller process nodes showcases innovation, while Intel faces challenges. These dynamics underscore the need for a
+					balanced approach to TDP management. As the semiconductor industry evolves, monitoring these trends is imperative for anticipating advancements and staying competitive.</p>
+
+			</section>
+
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
+

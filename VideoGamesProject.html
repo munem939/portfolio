@@ -1,0 +1,520 @@
+<!DOCTYPE HTML>
+<!--
+    Editorial by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js"></script>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>VideoGamesProject</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+        .linkedinlogo {
+			text-align: right;
+		}
+
+		
+		h1 {
+            text-align: left; /* Set the title to be left-aligned */
+        }
+
+        section *:not(.main-title, .chapter-title) {
+            font-size: 16px;
+        }
+
+		.chapter-title {
+			font-size: 22px;
+			text-decoration: underline;
+		}
+
+        body {
+            font-family: Arial, sans-serif;
+            text-align: justify;
+            line-height: 1.6;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto; /* Center the image */
+            max-width: 100%; /* Make sure the image doesn't exceed its container */
+            height: auto; /* Maintain aspect ratio */
+            width: 450px; /* Set a specific width for the image */
+        }
+
+		.ramanscript {
+			max-width: 100%; /* Make sure the image doesn't exceed its container */
+			width: 1500px; /* Set a specific width for the image */
+        }
+
+        .bordered-image {
+            border: 1px solid black;
+		}
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2; /* Gray background for table header */
+        }
+
+        #table-of-contents {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        #table-of-contents h2 {
+            margin-bottom: 10px;
+        }
+
+        #table-of-contents ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+		#table-of-contents li a {
+    		color: black;
+    		font-size: 14px;
+		}
+
+		.features {
+		text-align: center;
+		}
+
+		.skill-button {
+		display: inline-block;
+		width: 600px;
+		height: 90px;
+		padding: 10px;
+		border: 2px solid rgb(232, 233, 235);
+		border-radius: 10px;
+		background-color: rgb(224, 142, 18);
+		background: linear-gradient(45deg, #ffffff, #e6e6e6);
+		color: #ffffff;
+		text-align: center;
+		text-decoration: none;
+		font-size: 16px;
+		position: relative;
+		overflow: hidden;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		}
+
+		.skill-button img {
+		max-width: 40px;
+		max-height: 40px;
+		border-radius: 5px;
+		margin-bottom: 5px;
+		}
+
+		.skill-button:hover {
+		border: 3px solid rgb(245, 106, 106); /* Adjust the thickness and color as needed */
+		}
+		
+		.DataSummariseCode {
+			display: inline-block;
+			vertical-align: top; /* Align images at the top */
+        	margin-right: 10px; /* Adjust the margin as needed to provide space between images */
+			max-width: 100%; /* Make sure the image doesn't exceed its container */
+			width: 350px; /* Set a specific width for the image */
+		}
+
+		.SQLMergeCode {
+			display: inline-block;
+			vertical-align: top; /* Align images at the top */
+        	margin-right: 10px; /* Adjust the margin as needed to provide space between images */
+			max-width: 100%; /* Make sure the image doesn't exceed its container */
+			width: 550px; /* Set a specific width for the image */
+		}
+
+		.SQLCode {
+			display: inline-block;
+			vertical-align: top; /* Align images at the top */
+        	margin-right: 10px; /* Adjust the margin as needed to provide space between images */
+			max-width: 100%; /* Make sure the image doesn't exceed its container */
+			width: 500px; /* Set a specific width for the image */
+		}
+
+		.SQLCode1 {
+			display: inline-block;
+			vertical-align: top; /* Align images at the top */
+        	margin-right: 10px; /* Adjust the margin as needed to provide space between images */
+			max-width: 100%; /* Make sure the image doesn't exceed its container */
+			width: 650px; /* Set a specific width for the image */
+		}
+
+		.SQLCode2 {
+			display: inline-block;
+			vertical-align: top; /* Align images at the top */
+        	margin-right: 10px; /* Adjust the margin as needed to provide space between images */
+			max-width: 100%; /* Make sure the image doesn't exceed its container */
+			width: 275px; /* Set a specific width for the image */
+		}
+
+		.SQLCode3 {
+			display: inline-block;
+			vertical-align: top; /* Align images at the top */
+        	margin-right: 10px; /* Adjust the margin as needed to provide space between images */
+			max-width: 100%; /* Make sure the image doesn't exceed its container */
+			width: 450px; /* Set a specific width for the image */
+		}
+
+        .tableauContainer {
+			max-width: 1045px; /* Adjust the maximum width as needed */
+            margin: 0 auto; /* Center the container */
+            border: 1px solid #000000; /* Add a border around the container */
+            padding: 10px; /* Optional: Add padding for better visual appearance */
+        }
+
+		.VideoGamesAnalysis {
+			display: inline-block;
+			vertical-align: top; /* Align images at the top */
+        	margin-right: 10px; /* Adjust the margin as needed to provide space between images */
+			max-width: 100%; /* Make sure the image doesn't exceed its container */
+			width: 500px; /* Set a specific width for the image */
+		}
+
+    </style>
+</head>
+
+<body class="is-preload">
+
+<!-- Wrapper -->
+<div id="wrapper">
+
+    <!-- Main -->
+    <div id="main">
+        <div class="inner">
+
+            <!-- Header -->
+            <header id="header">
+                <a href="index.html" class="logo"><strong>Muhammad Ali Portfolio Homepage</strong></a>
+				<a href="https://www.linkedin.com/in/mali939/" class="logo linkedinlogo"><strong>LinkedIn</strong></a>
+            </header>
+
+			<header class="main">
+				<h1 class="main-title"><br/>Exploratory Data Analysis of Video Game Sales</h1>
+			</header>
+
+            <!-- Table of Contents -->
+            <div id="table-of-contents" class="tableofcontents">
+                <h2>Table of Contents</h2>
+                <ul>
+                    <li><a href="#tasks">Task</a></li>
+					<li><a href="#tools">Tools Utilised</a></li>
+                    <li><a href="#background">Background</a></li>
+					<li><a href="#datacleaning">Data Cleaning, Merging and Integration</a></li>
+                    <li><a href="#output">Key Findings and Visualizations</a></li>
+					<li><a href="#conclusion">Conclusion</a></li>
+                </ul>
+            </div>
+
+            <!-- Tasks -->
+            <section id="task">
+				<header class="main">
+					<h1 class="chapter-title">Task</h1>
+				</header>
+				<p>This project is to conduct an exploratory analysis on a dataset of video game releases from 1980 to 2020. This Exploratory Data Analysis (EDA) aims to decode the intricate patterns within sales data, contributing to a nuanced understanding of the gaming market
+					and facilitating data-driven decision-making in this dynamic and influential industry.</p>
+				<p>The original data contained 16,600 data entries and was obtained from <a href="https://www.kaggle.com/datasets/gregorut/videogamesales/data" target="_blank">Kaggle</a>. For the purposes of this project, the initial .csv file underwent division into two distinct files: one housing sales data ("vgsales"), and the other encompassing review data ("vgsalesreviews").</p>
+				<p>My responsibilities include exploring data structure, calculating descriptive statistics, analyzing temporal trends, examining variable distributions, assessing correlations, and generating insights. I will be highlighting key findings and trends to inform future decision-making processes.</p>
+            </section>
+
+			<!-- Tools -->
+			<section id="tools">
+				<header class="main">
+					<h1 class="chapter-title">Tools Utilised</h1>
+				</header>
+				<div class="features">
+				  <article>
+					<a href="https://www.mysql.com/" target="_blank" class="skill-button">
+					  <img src="images/SQL.svg" alt="SQL Icon">
+					  <div class="content">
+						<h3>SQL</h3>
+					  </div>
+					</a>
+				  </article>
+				  <article>
+					<a href="https://www.microsoft.com/en-gb/microsoft-365/excel" target="_blank" class="skill-button">
+					  <img src="images/Excel.svg" alt="Microsoft Excel Icon">
+					  <div class="content">
+						<h3>Microsoft Excel</h3>
+					  </div>
+					</a>
+				  </article>
+				  <article>
+					<a href="https://www.python.org/" target="_blank" class="skill-button">
+					  <img src="images/Python.svg" alt="Python Icon">
+					  <div class="content">
+						<h3>Python</h3>
+					  </div>
+					</a>
+				  </article>
+				  <article>
+					<a href="https://public.tableau.com/app/discover" target="_blank" class="skill-button">
+					  <img src="images/Tableau.svg" alt="Tableau Icon">
+					  <div class="content">
+						<h3>Tableau</h3>
+					  </div>
+					</a>
+				  </article>
+				</div>
+			  </section>
+
+            <!-- Background -->
+            <section id="background">
+				<header class="main">
+					<h1 class="chapter-title">Background</h1>
+				</header>
+				<p>Video games, a cultural phenomenon since the late 20th century, have evolved from simple pixelated graphics to immersive, high-tech experiences. Their impact extends beyond entertainment, influencing social interactions, education, and even shaping economies and careers. 
+					As a data analyst, delving into the vast realm of video game sales offers insights into consumer behaviors, industry trends, and the ever-evolving landscape of gaming. 
+					Examining the sales data provides a unique lens into how gaming profits compare to other sectors within the broader entertainment market, shedding light on the economic significance of this thriving and evolving industry.</p>
+				<p>In the expansive world of video games, key players, including publishers and developers, play pivotal roles in shaping the industry. Established names like Electronic Arts (EA), Activision Blizzard, and Ubisoft wield significant influence, driving innovation and defining gaming trends. Meanwhile, renowned developers like Nintendo, known for iconic franchises such as Super Mario and The Legend of Zelda, contribute to the industry's creative landscape.</p>
+				<p>Dynamic collaboration between publishers, developers, and platform holders forms a complex ecosystem that influences game releases, technological advancements, and market dynamics. As part of a data analyst's exploration, understanding the contributions and strategies of these key players becomes essential for comprehending the intricate patterns within the video game sales dataset.</p>
+			</section>
+
+            <!-- Data Cleaning, Merging and Integration -->
+            <section id="datacleaning">
+				<header class="main">
+					<h1 class="chapter-title">Data Cleaning, Merging and Integration</h1>
+				</header>
+
+				<p><strong>1. Summarising data and identifying any invalid entries within both datasets</strong></p>
+				<ul>
+					<li>From both datasets, using Excel's filter function, a total of 540 data entries have "N/A" in the "Release Year" column and 2425 data entries have "tbd" present in the "User_Score" column.</li>
+					<li>A new header was added called "Number of Blanks" in Excel. Using Excel's <strong>"=COUNTBLANK"</strong> function, across both datasets and 33,320 data entries, 2 blank entries were found in the "Names" section. These were removed from the dataset.</li>
+					<li>If the data is from a stakeholder, I'd seek clarification and discuss with the team and stakeholder. Collaboratively deciding the best approach for effective analysis, ensuring informed decisions based on the available dataset.</li>
+				</ul>
+
+				<p>Additionally, a Python script was developed to summarises key insights for each heading in "vgsales" and "vgsalesreviews" files, offering valuable information on the data types for each header.</p>
+
+				<div style="text-align: center;">
+					<img class="DataSummariseCode" src="assets/python/DataSummarise.png" alt="DataSummariseScript">
+					<img class="DataSummariseCode" src="assets/python/DataSummarise1.png" alt="DataSummariseOutput1">
+					<img class="DataSummariseCode" src="assets/python/DataSummarise2.png" alt="DataSummariseOutput2">
+				</div><br/>
+				
+				<p><strong>2. Addressing the blank data entries using SQL</strong></p>
+				<ul>
+					<li>Blank cells in the “vgsalesreviews” table were identified and nullified, focusing on critical columns such as “year_of_release”, “critic_score”, “critic_count”, “user_score”, and “user_count”.</li>
+					<li>Columns in the “vgsalesreviews” table were converted from "Text" to specific data fields, enhancing the data's accuracy and usability.</li>
+				</ul>
+
+				<div style="text-align: center;">
+					<img class="SQLMergeCode" src="assets/sql/SQLCode1.png" alt="SQLCode1">
+				</div><br/>
+
+				<p><strong>3. Dataset merging and exporting using SQL</strong></p>
+				<ul>
+					<li>The two tables were then merged into a new table named “vgsalesfull” using a left join on the game names.</li>
+					<li>The “vgsalesfull” table was exported as a CSV file for further analysis.</li>
+				</ul>
+
+				<div style="text-align: center;">
+					<img class="SQLMergeCode" src="assets/sql/SQLCode2.png" alt="SQLCode2">
+				</div><br/>	
+
+			</section>
+			
+            <!-- Key Findings and Visualizations -->
+            <section id="output">
+				<header class="main">
+					<h1 class="chapter-title">Key Findings and Visualizations</h1>
+				</header>
+				<p><strong>Analysis of the best selling video games across each region by genre</strong></p>
+				<ul>
+					<li>Utilizing SQL, an analysis of total global, North American, European, Japanese, and "Other" region sales was conducted across various genres.</li>
+					<li>The findings revealed that the action genre holds the highest global sales, trailed by sports and shooter games.</li>
+					<li>A potential explanation for the notable dominance of action games in sales is the extensive variety within the genre. 
+					<li>The robust sales of sports and shooter games can be attributed to the consistent annual releases of popular franchises in these genres.</li>
+				</ul>				
+				
+				<div style="text-align: center;">
+					<img class="SQLCode" src="assets/sql/SQLCode3.png" alt="SQLCode3">
+					<img class="SQLCode" src="assets/sql/SQLCode3Output.png" alt="SQLCode3Output">
+				</div><br/>	
+
+				<p><strong>Analysis of the most actively-selling publishers</strong></p>
+				<ul>
+					<li>Across the dataset, publishers released an average of 20 games. Namco Bandai Games led with 774 releases, followed by Nintendo and Konami.</li>
+				</ul>	
+
+				<div style="text-align: center;">
+					<img class="SQLCode1" src="assets/sql/SQLCode4.png" alt="SQLCode4">
+					<img class="SQLCode2" src="assets/sql/SQLCode4Output.png" alt="SQLCode4Output">
+				</div><br/>	
+
+				<p><strong>Analysis of the highest selling video games</strong></p>
+				<ul>
+					<li>Common Table Expressions (CTEs) were leveraged on SQL to identify and present the top 3 games from each genre based on global sales.</li>
+				</ul>	
+
+				<div style="text-align: center;">
+					<img class="SQLCode" src="assets/sql/SQLCode5.png" alt="SQLCode5">
+					<img class="SQLCode3" src="assets/sql/SQLCode5Output.png" alt="SQLCode5Output">
+				</div><br/>	
+
+				<ul>
+					<li>Data visualizations were made using Tableau to provide insights on some of the sales data across different genres and platforms, and the total number of games released within a user-set time period. Additional filters for both genre and release years were added.</li>
+					<li>Demonstrating substantial sales figures, the DS and PS2 led in game releases. Meanwhile, Xbox 360, PS3, and PS2 showcased parallel global sales, signifying their joint market dominance in distinct eras</li>
+					<li>Notably, action game sales soared on home consoles like the PS2, Xbox 360, and PS3, requiring external displays. In contrast, handheld consoles like the DS and PSP saw a prevalence of miscellaneous and puzzle games in their releases.</li>
+					<li>This trend is likely influenced by the handheld consoles' target audience, catering to younger individuals and those with on-the-go lifestyles, who prefer shorter gaming sessions.</li>
+				</ul>
+
+				<div class='tableauContainer'>
+					<div class='tableauPlaceholder' id='viz1701808848548' style='position: relative'>
+						<noscript>
+							<a href='#'>
+								<img alt='Dashboard 1' src='https://public.tableau.com/static/images/Vi/VideoGameSalesandReleasesAcrossDifferentPlatforms/Dashboard1/1_rss.png' style='border: none' />
+							</a>
+						</noscript>
+						<object class='tableauViz' style='display:none;'>
+							<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+							<param name='embed_code_version' value='3' />
+							<param name='site_root' value='' />
+							<param name='name' value='VideoGameSalesandReleasesAcrossDifferentPlatforms&#47;Dashboard1' />
+							<param name='tabs' value='no' />
+							<param name='toolbar' value='yes' />
+							<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Vi&#47;VideoGameSalesandReleasesAcrossDifferentPlatforms&#47;Dashboard1&#47;1.png' />
+							<param name='animate_transition' value='yes' />
+							<param name='display_static_image' value='yes' />
+							<param name='display_spinner' value='yes' />
+							<param name='display_overlay' value='yes' />
+							<param name='display_count' value='yes' />
+							<param name='language' value='en-US' />
+						</object>
+					</div>
+					<script type='text/javascript'>
+						var divElement = document.getElementById('viz1701808848548');
+						var vizElement = divElement.getElementsByTagName('object')[0];
+						if (divElement.offsetWidth > 800) {
+							vizElement.style.width='1024px';
+							vizElement.style.height='795px';
+						} else if (divElement.offsetWidth > 500) {
+							vizElement.style.width='1024px';
+							vizElement.style.height='795px';
+						} else {
+							vizElement.style.width='100%';
+							vizElement.style.height='827px';
+						}
+						var scriptElement = document.createElement('script');
+						scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+						vizElement.parentNode.insertBefore(scriptElement, vizElement);
+					</script>
+				</div>
+				<br/><br/>	
+				<ul>
+					<li>A Python script was developed to visualize the top games' sales by region, demonstrating the global sales across “North America”, “Europe”, “Japan”, and “Other” regions.</li>
+					<li>North America consistently led in overall sales compared to Europe and Japan, attributed to the larger U.S. market.</li>
+				</ul>
+				<div style="text-align: center;">
+					<img class="VideoGamesAnalysis" src="assets/python/VideoGamesAnalysisCode1.png" alt="VideoGamesAnalysisCode1">
+					<img class="VideoGamesAnalysis" src="assets/python/VideoGamesAnalysis1.png" alt="VideoGamesAnalysis1">
+				</div><br/><br/>
+				<div style="text-align: center;">
+					<img class="VideoGamesAnalysis" src="assets/python/VideoGamesAnalysisCode2.png" alt="VideoGamesAnalysisCode2">
+					<img class="VideoGamesAnalysis" src="assets/python/VideoGamesAnalysis2.png" alt="VideoGamesAnalysis2">
+				</div><br/>
+
+				<ul>
+					<li>Examining the data visualizations, the peak years for top-selling games spanned from 2002 to 2011. This surge can be attributed to the concurrent launches of the PS2 and DS, recognized as the leading consoles with the highest game sales. Notably, the graphical representations reveal a predominant trend in sales favoring portable devices, including the Nintendo DS, PlayStation Portable (PSP), and GameBoy Advance (GBA). Console sales also constituted a substantial share, prominently driven by the Nintendo Wii and Sony Playstation 2.</li>
+					<li>Conversely, the least successful consoles emerged during the period from 1980 to 1990. This can be attributed to the early stage of video game console introduction, lacking the demand and profitability observed in 2023. Additionally, obtaining information about these older games may pose a challenge, contributing to their lower sales figures.</li>
+					<li>Nintendo consoles has exhibited unwavering dominance from 1980, with the release of the Nintendo Entertainment System (NES) in 1983, solidifying their position as industry leaders. Their enduring influence persisted through various gaming eras, making them a pivotal force in the evolution of video game consoles.</li>
+				</ul>
+
+				<div class='tableauContainer'>
+					<div class='tableauPlaceholder' id='viz1701815236714' style='position: relative'>
+						<noscript>
+							<a href='#'>
+								<img alt='Dashboard 2' src='https://public.tableau.com/static/images/To/Top10YearsinVideoGameHistorywithMostMinimalSales/Dashboard2/1_rss.png' style='border: none' />
+							</a>
+						</noscript>
+						<object class='tableauViz' style='display:none;'>
+							<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+							<param name='embed_code_version' value='3' />
+							<param name='site_root' value='' />
+							<param name='name' value='Top10YearsinVideoGameHistorywithMostMinimalSales/Dashboard2' />
+							<param name='tabs' value='no' />
+							<param name='toolbar' value='yes' />
+							<param name='static_image' value='https://public.tableau.com/static/images/To/Top10YearsinVideoGameHistorywithMostMinimalSales/Dashboard2/1.png' />
+							<param name='animate_transition' value='yes' />
+							<param name='display_static_image' value='yes' />
+							<param name='display_spinner' value='yes' />
+							<param name='display_overlay' value='yes' />
+							<param name='display_count' value='yes' />
+							<param name='language' value='en-US' />
+						</object>
+					</div>
+					<script type='text/javascript'>
+						var divElement = document.getElementById('viz1701815236714');
+						var vizElement = divElement.getElementsByTagName('object')[0];
+						if (divElement.offsetWidth > 800) {
+							vizElement.style.width='1000px';
+							vizElement.style.height='827px';
+						} else if (divElement.offsetWidth > 500) {
+							vizElement.style.width='1000px';
+							vizElement.style.height='827px';
+						} else {
+							vizElement.style.width='100%';
+							vizElement.style.height='877px';
+						}
+						var scriptElement = document.createElement('script');
+						scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+						vizElement.parentNode.insertBefore(scriptElement, vizElement);
+					</script>
+				</div>
+            </section>
+
+				<!-- Conclusion -->
+				<section id="conclusion">
+					<header class="main">
+						<h1 class="chapter-title">Conclusion</h1>
+					</header>
+				
+				<p>This portfolio showcases diverse analytical skills; utilizing Excel, Python and SQL for data validation and cleaning, and SQL for in-depth sales analysis by region, genre, and publishers.
+					Tableau and Python were employed to visualize global trends and highlight peak years. </p>
+
+				<p>The analysis uncovered action games as global bestsellers, driven by genre diversity, while sports and shooter games thrived on franchise consistency.
+					Noteworthy publisher insights revealed Namco Bandai Games leading in releases.
+					Tableau visualizations spotlighted DS and PS2 dominance, with Nintendo's sustained influence evident.
+					The Python script showcased North America's gaming market leadership and emphasized the surge in top-selling games from 2002 to 2011, and Nintendo's enduring dominance since 1983 emphasises
+					their pivotal role in shaping the gaming industry.</p>
+
+			</section>
+
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
+

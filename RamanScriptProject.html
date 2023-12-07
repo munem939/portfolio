@@ -1,0 +1,319 @@
+<!DOCTYPE HTML>
+<!--
+    Editorial by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js"></script>
+
+    <title>RamanScriptProject</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+        .linkedinlogo {
+			text-align: right;
+		}
+
+		
+		h1 {
+            text-align: left; /* Set the title to be left-aligned */
+        }
+
+        section *:not(.main-title, .chapter-title) {
+            font-size: 16px;
+        }
+
+		.chapter-title {
+			font-size: 22px;
+			text-decoration: underline;
+		}
+
+        body {
+            font-family: Arial, sans-serif;
+            text-align: justify;
+            line-height: 1.6;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto; /* Center the image */
+            max-width: 100%; /* Make sure the image doesn't exceed its container */
+            height: auto; /* Maintain aspect ratio */
+            width: 450px; /* Set a specific width for the image */
+        }
+
+		.ramanscript {
+			max-width: 100%; /* Make sure the image doesn't exceed its container */
+			width: 1500px; /* Set a specific width for the image */
+        }
+
+        .bordered-image {
+            border: 1px solid black;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2; /* Gray background for table header */
+        }
+
+        #table-of-contents {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        #table-of-contents h2 {
+            margin-bottom: 10px;
+        }
+
+        #table-of-contents ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+		#table-of-contents li a {
+    		color: black;
+    		font-size: 14px;
+		}
+
+		.features {
+		text-align: center;
+		}
+
+		.skill-button {
+		display: inline-block;
+		width: 600px;
+		height: 90px;
+		padding: 10px;
+		border: 2px solid rgb(232, 233, 235);
+		border-radius: 10px;
+		background-color: rgb(224, 142, 18);
+		background: linear-gradient(45deg, #ffffff, #e6e6e6);
+		color: #ffffff;
+		text-align: center;
+		text-decoration: none;
+		font-size: 16px;
+		position: relative;
+		overflow: hidden;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		}
+
+		.skill-button img {
+		max-width: 40px;
+		max-height: 40px;
+		border-radius: 5px;
+		margin-bottom: 5px;
+		}
+
+		.skill-button:hover {
+		border: 3px solid rgb(245, 106, 106); /* Adjust the thickness and color as needed */
+		}
+    </style>
+</head>
+
+<body class="is-preload">
+
+<!-- Wrapper -->
+<div id="wrapper">
+
+    <!-- Main -->
+    <div id="main">
+        <div class="inner">
+
+            <!-- Header -->
+            <header id="header">
+                <a href="index.html" class="logo"><strong>Muhammad Ali Portfolio Homepage</strong></a>
+				<a href="https://www.linkedin.com/in/mali939/" class="logo linkedinlogo"><strong>LinkedIn</strong></a>
+            </header>
+
+			<header class="main">
+				<h1 class="main-title"><br/>Automated Python Script for Spectroscopic Mapping</h1>
+			</header>
+
+            <!-- Table of Contents -->
+            <div id="table-of-contents" class="tableofcontents">
+                <h2>Table of Contents</h2>
+                <ul>
+                    <li><a href="#tasks">Task</a></li>
+					<li><a href="#tools">Tools Utilised</a></li>
+                    <li><a href="#background">Background</a></li>
+					<li><a href="#challenges">Challenges</a></li>
+                    <li><a href="#python-code">Python Code</a></li>
+                    <li><a href="#output">Outputs and Findings</a></li>
+                </ul>
+            </div>
+
+            <!-- Tasks -->
+            <section id="task">
+				<header class="main">
+					<h1 class="chapter-title">Task</h1>
+				</header>
+			<p>This project is based on an existing professional task that I explored. An industry is working on state-of-the-art graphene-based sensor and
+				 need to ensure that the sensors produced are of the highest quality.
+				<br/><br/> I was tasked with analysing data measurements performed by other researchers and assess the quality of the graphene-based sensors. This involves engaging with researchers and other analysts to gather insights into the existing processes.
+            </section>
+
+			<!-- Tools -->
+			<section id="tools">
+				<header class="main">
+					<h1 class="chapter-title">Tools Utilised</h1>
+				</header>
+				<div class="features">
+					<article>
+					<a href="https://www.python.org/" target="_blank" class="skill-button">
+						<img src="images/Python.svg" alt="Python Icon">
+						<div class="content">
+						<h3>Python</h3>
+						</div>
+					</a>
+					</article>
+				</div>
+				</section>
+
+            <!-- Background -->
+            <section id="background">
+				<header class="main">
+					<h1 class="chapter-title">Background</h1>
+				</header>
+				<p>Research scientists perform Raman spectroscopy on the graphene and pass the data along to analysts. Raman spectroscopy is a technique for analysing carbon-based materials, such as graphene. It creates 3 peaks, called the "D-peak", "G-peak" and "2D-peak", which are key indicators of graphene quality, 
+					by measuring the ratio between the "D-peak" and the "G-peak", known as the "D/G Ratio". The higher the D/G ratio, the lower the quality.
+					
+					The following graph illustrates the 3 peaks found in each .txt file:<br/><br/>
+
+					<img src="images/RamanGraph.png" alt="Raman Graph"></p>
+					
+            </section>
+
+            <!-- Challenges -->
+            <section id="challenges">
+				<header class="main">
+					<h1 class="chapter-title">Challenges</h1>
+				</header>
+
+				<p><strong>1. Analyzing data from thousands of .txt files, each containing spectra, presented challenges in both data volume and the need to distinguish three peaks within each spectrum accurately
+				</strong></p>
+	
+					<p><em>Solution:</em> Developed a Python script to automate the extraction and processing of data, leveraging Pandas and NumPy for efficient handling of large datasets. Implemented a custom peak detection algorithm, incorporating signal processing techniques and statistical methods to accurately identify and separate the three peaks within each spectrum.</p>
+	
+					<p><strong>2. Ensuring accurate spatial mapping for the plotted data was crucial for meaningful analysis</strong></p>
+	
+					<p><em>Solution:</em> Extended the Python script to include spatial mapping visualization using Matplotlib. Integrated geographical information into the analysis, based on the values found in the file names, providing a comprehensive spatial map that enhanced the interpretability of the data. </p>
+	
+					<p><strong>3. Collaborating with researchers and analysts was essential for process insights, requiring deep expertise to navigate graphene and Raman Spectroscopy complexities</strong></p>
+	
+					<p><em>Solution:</em> Actively engaged with collaborators, facilitating communication and sharing Python code snippets. Conducted focused background research, collaborating with experts to ensure accurate data interpretation aligned with industry scientific requirements. </p>
+	
+			</section>
+
+            <!-- Python Code -->
+            <section id="python-code">
+				<header class="main">
+					<h1 class="chapter-title">Python Code</h1>
+				</header>
+
+			<p>
+				This Python script systematically extracts x and y coordinates from the file names, reads data,
+				applies signal smoothing, calculating the D/G Ratio from each file.
+				<br/>
+				<br/>The dimensions of the plot and the ratio representation for each mapping point are determined from the extracted x and y coordinates. The layout of the file names
+				for the outputted data files are shown below, with the x and y coordinates shown in bold:
+			</p>
+
+			
+			<table>
+				<thead>
+					<tr>
+						<th>File Number</th>
+						<th>File Name</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>1</td>
+						<td>"RamanMap1_1500_x100obj_10pwr_3sx1_0__X_<strong>8679.02</strong>__Y_<strong>-70129.4</strong>__Time_0.txt"</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>"RamanMap1_1500_x100obj_10pwr_3sx1_1__X_<strong>8679.52</strong>__Y_<strong>-70129.4</strong>__Time_3.txt"</td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>"RamanMap1_1500_x100obj_10pwr_3sx1_2__X_<strong>8680.02</strong>__Y_<strong>-70129.4</strong>__Time_7.txt"</td>
+					</tr>
+					<tr>
+						<td>...</td>
+						<td>...</td>
+					</tr>
+					<tr>
+						<td>32</td>
+						<td>"RamanMap1_1500_x100obj_10pwr_3sx1_31__X_<strong>8679.02</strong>__Y_<strong>-70128.9</strong>__Time_109.txt"</td>
+					</tr>
+					<tr>
+						<td>33</td>
+						<td>"RamanMap1_1500_x100obj_10pwr_3sx1_32__X_<strong>8679.52</strong>__Y_<strong>-70128.9</strong>__Time_113.txt"</td>
+					</tr>
+					<tr>
+						<td>34</td>
+						<td>"RamanMap1_1500_x100obj_10pwr_3sx1_33__X_<strong>8680.02</strong>__Y_<strong>-70128.9</strong>__Time_116.txt"</td>
+					</tr>
+				</tbody>
+				
+			</table></p>
+
+			<img class="ramanscript" src="assets/python/RamanScript.png" alt="Raman Script"></p>
+
+
+		</section>
+
+
+            <!-- Content -->
+            <section id="output">
+				<header class="main">
+					<h1 class="chapter-title">Outputs and Findings</h1>
+				</header>
+			
+				<p><strong>Data Visualisation Output:</strong><br/>
+					Upon running the Python script, the generated contour plot provides a comprehensive visualization of the graphene-based sensor data. The plot reveals the presence of the desired pattern; however, closer inspection exposes patches with higher D/G ratios. This observation signifies areas of potential concern, indicating variations in graphene quality across the sensor surface.</p>
+					
+					<p><img src="images/Example Data 1 Output.png" alt="Example Data 1 Output" class="bordered-image"></p>
+					
+					<p><strong>Findings:</strong><br/>
+					In collaboration with fellow researchers and analysts, we delved into the identified discrepancies to deduce potential causes. The elevated D/G ratios in certain areas suggest underlying issues that warrant attention. Possible contributors include surface contaminants introduced during the fabrication process, indicating a need for rigorous cleanliness measures. Additionally, the findings imply that further optimization of the device may be necessary to achieve uniform performance across the sensor. Lastly, poor graphene quality is considered as a potential factor influencing the observed variations, prompting a thorough examination of the fabrication techniques and materials.</p>
+				
+			</section>
+
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
+
