@@ -341,8 +341,7 @@
 
 				<p><strong>2. Correcting the Data Formatting</strong></p>
 				<ul>
-					<li>The "<strong>TRIM</strong>" function was used on the "company", "stage" and "country" columns.</li>
-					<li>This affected 11 rows of data.</li>
+					<li>The "<strong>TRIM</strong>" function was used on the "company", "stage" and "country" columns. This affected 11 rows of data.</li>
 					<li>Each field category was inspected to ensure that no character errors were present or data entries written in different formats within the same column (e.g. "United States" and "USA" in the "country" column)</li>
 				</ul>
 
@@ -390,7 +389,7 @@
 				<ul>
 					<li>The data was loaded into Python using the "<strong>pd.read_csv()</strong>" Pandas function.</li>
 					<li>Using the "<strong>type()</strong>" function in Python, we can determine that the data is already in a DataFrame format. Therefore, we would not need to construct a DataFrame using "<strong>pd.DataFrame()</strong>".</li>
-					<li>Using the "info()" Pandas function, it is observed that the date appears as an object rather than in a datetime format.
+					<li>Using the "<strong>info()</strong>" Pandas function, it is observed that the date appears as an object rather than in a datetime format.
 					<li>The "<strong>to_datetime()</strong>" Pandas function was utilised to covert the date into a date-time format.</li>
 				</ul>
 
