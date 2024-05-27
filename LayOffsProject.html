@@ -1,0 +1,518 @@
+<!DOCTYPE HTML>
+<!--
+    Editorial by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js"></script>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+	<title>LayOffsProject</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+        .linkedinlogo {
+			text-align: right;
+		}
+
+		
+		h1 {
+            text-align: left; /* Set the title to be left-aligned */
+        }
+
+        section *:not(.main-title, .chapter-title) {
+            font-size: 16px;
+        }
+
+		.chapter-title {
+			font-size: 22px;
+			text-decoration: underline;
+		}
+
+        body {
+            font-family: Arial, sans-serif;
+            text-align: justify;
+            line-height: 1.6;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto; /* Center the image */
+            max-width: 100%; /* Make sure the image doesn't exceed its container */
+            height: auto; /* Maintain aspect ratio */
+            width: 450px; /* Set a specific width for the image */
+        }
+
+		.ramanscript {
+			max-width: 100%; /* Make sure the image doesn't exceed its container */
+			width: 1500px; /* Set a specific width for the image */
+        }
+
+        .bordered-image {
+            border: 1px solid black;
+		}
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2; /* Gray background for table header */
+        }
+
+        #table-of-contents {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        #table-of-contents h2 {
+            margin-bottom: 10px;
+        }
+
+        #table-of-contents ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+		#table-of-contents li a {
+    		color: black;
+    		font-size: 14px;
+		}
+
+		.features {
+		text-align: center;
+		}
+
+		.skill-button {
+		display: inline-block;
+		width: 600px;
+		height: 90px;
+		padding: 10px;
+		border: 2px solid rgb(232, 233, 235);
+		border-radius: 10px;
+		background-color: rgb(224, 142, 18);
+		background: linear-gradient(45deg, #ffffff, #e6e6e6);
+		color: #ffffff;
+		text-align: center;
+		text-decoration: none;
+		font-size: 16px;
+		position: relative;
+		overflow: hidden;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		}
+
+		.skill-button img {
+		max-width: 40px;
+		max-height: 40px;
+		border-radius: 5px;
+		margin-bottom: 5px;
+		}
+
+		.skill-button:hover {
+		border: 3px solid rgb(245, 106, 106); /* Adjust the thickness and color as needed */
+		}
+		
+		.DataSummariseCode {
+			display: inline-block;
+			vertical-align: top; /* Align images at the top */
+        	margin-right: 10px; /* Adjust the margin as needed to provide space between images */
+			max-width: 100%; /* Make sure the image doesn't exceed its container */
+			width: 500px; /* Set a specific width for the image */
+		}
+
+        .DataSummariseCodeThree {
+            display: inline-block;
+            vertical-align: top; /* Align images at the top */
+            margin-right: 10px; /* Adjust the margin as needed to provide space between images */
+            max-width: 100%; /* Make sure the image doesn't exceed its container */
+            width: 700px; /* Set a specific width for the image */
+        }
+
+        .DataSummariseCodeTwo {
+            display: inline-block;
+            vertical-align: top; /* Align images at the top */
+            margin-right: 10px; /* Adjust the margin as needed to provide space between images */
+            max-width: 100%; /* Make sure the image doesn't exceed its container */
+            width: 300px; /* Set a specific width for the image */
+        }
+
+        .DataSummariseCodeFour {
+            display: inline-block;
+            vertical-align: top; /* Align images at the top */
+            margin-right: 10px; /* Adjust the margin as needed to provide space between images */
+            max-width: 100%; /* Make sure the image doesn't exceed its container */
+            width: 500px; /* Set a specific width for the image */
+        }
+
+		.SQLMergeCode {
+			display: inline-block;
+			vertical-align: top; /* Align images at the top */
+        	margin-right: 10px; /* Adjust the margin as needed to provide space between images */
+			max-width: 100%; /* Make sure the image doesn't exceed its container */
+			width: 750px; /* Set a specific width for the image */
+		}
+
+		.SQLCode {
+			display: inline-block;
+			vertical-align: top; /* Align images at the top */
+        	margin-right: 10px; /* Adjust the margin as needed to provide space between images */
+			max-width: 100%; /* Make sure the image doesn't exceed its container */
+			width: 500px; /* Set a specific width for the image */
+		}
+
+		.SQLCode1 {
+			display: inline-block;
+			vertical-align: top; /* Align images at the top */
+        	margin-right: 10px; /* Adjust the margin as needed to provide space between images */
+			max-width: 100%; /* Make sure the image doesn't exceed its container */
+			width: 650px; /* Set a specific width for the image */
+		}
+
+		.SQLCode2 {
+			display: inline-block;
+			vertical-align: top; /* Align images at the top */
+        	margin-right: 10px; /* Adjust the margin as needed to provide space between images */
+			max-width: 100%; /* Make sure the image doesn't exceed its container */
+			width: 275px; /* Set a specific width for the image */
+		}
+
+		.SQLCode3 {
+			display: inline-block;
+			vertical-align: top; /* Align images at the top */
+        	margin-right: 10px; /* Adjust the margin as needed to provide space between images */
+			max-width: 100%; /* Make sure the image doesn't exceed its container */
+			width: 450px; /* Set a specific width for the image */
+		}
+
+        .tableauContainer {
+			max-width: 1045px; /* Adjust the maximum width as needed */
+            margin: 0 auto; /* Center the container */
+            border: 1px solid #000000; /* Add a border around the container */
+            padding: 10px; /* Optional: Add padding for better visual appearance */
+        }
+
+		.VideoGamesAnalysis {
+			display: inline-block;
+			vertical-align: top; /* Align images at the top */
+        	margin-right: 10px; /* Adjust the margin as needed to provide space between images */
+			max-width: 100%; /* Make sure the image doesn't exceed its container */
+			width: 500px; /* Set a specific width for the image */
+		}
+
+    </style>
+</head>
+
+<body class="is-preload">
+
+<!-- Wrapper -->
+<div id="wrapper">
+
+    <!-- Main -->
+    <div id="main">
+		<div class="inner">
+
+			<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="logo"><strong>Muhammad Ali Portfolio Homepage</strong></a>
+				<a href="https://www.linkedin.com/in/mali939/" class="logo linkedinlogo"><strong>LinkedIn</strong></a>
+			</header>
+
+			<header class="main">
+				<h1 class="main-title"><br />Exploratory Data Analysis of Company Lay-offs</h1>
+			</header>
+
+			<!-- Table of Contents -->
+			<div id="table-of-contents" class="tableofcontents">
+				<h2>Table of Contents</h2>
+				<ul>
+					<li><a href="#tasks">Task</a></li>
+					<li><a href="#tools">Tools Utilised</a></li>
+					<li><a href="#background">Background</a></li>
+					<li><a href="#datacleaning">Data Cleaning using SQL</a></li>
+					<li><a href="#output">Key Findings and Visualizations using SQL, Python and PowerBI</a></li>
+					<li><a href="#conclusion">Conclusion</a></li>
+				</ul>
+			</div>
+
+			<!-- Tasks -->
+			<section id="task">
+				<header class="main">
+					<h1 class="chapter-title">Task</h1>
+				</header>
+				<p>
+					This project is to conduct an exploratory analysis on a dataset of company earnings and company lay-offs from 2020 to 2023. This Exploratory Data Analysis (EDA) aims to decode the intricate patterns within sales data, contributing to a recent rise in employee layoffs
+					and facilitating data-driven insights to notice any trends.
+				</p>
+				<p>The original data contained 2,361 data entries and was obtained from <a href="https://github.com/AlexTheAnalyst/MySQL-YouTube-Series/blob/main/layoffs.csv" target="_blank">GitHub</a> </p>
+			</section>
+
+			<!-- Tools -->
+			<section id="tools">
+				<header class="main">
+					<h1 class="chapter-title">Tools Utilised</h1>
+				</header>
+				<div class="features">
+					<article>
+						<a href="https://www.mysql.com/" target="_blank" class="skill-button">
+							<img src="images/SQL.svg" alt="SQL Icon">
+							<div class="content">
+								<h3>SQL</h3>
+							</div>
+						</a>
+					</article>
+					<article>
+						<a href="https://www.python.org/" target="_blank" class="skill-button">
+							<img src="images/Python.svg" alt="Python Icon">
+							<div class="content">
+								<h3>Python</h3>
+							</div>
+						</a>
+					</article>
+					<article>
+						<a href="https://www.microsoft.com/en-us/power-platform/products/power-bi" target="_blank" class="skill-button">
+							<img src="images/PowerBI.svg" alt="PowerBI Icon">
+							<div class="content">
+								<h3>PowerBI</h3>
+							</div>
+						</a>
+					</article>
+				</div>
+			</section>
+
+			<!-- Background -->
+			<section id="background">
+				<header class="main">
+					<h1 class="chapter-title">Background</h1>
+				</header>
+				<p>
+					From 2020 to 2023, companies worldwide grappled with unprecedented challenges, including the COVID-19 pandemic, economic downturns, and technological disruptions. These factors forced many businesses to make layoffs, to streamline operations and adapt to changing market conditions.
+					The pandemic, in particular, led to widespread workforce reductions as companies faced reduced demand, supply chain disruptions, and operational constraints. Technological advancements and automation initiatives further reshaped the labor landscape, with tasks being automated or streamlined, leading to job losses in some sectors.
+				</p>
+				<p>
+					Conducting an Exploratory Data Analysis (EDA) on a dataset of company layoffs from this period can provide insights into the underlying trends and factors driving workforce reductions. By understanding the impact of external factors, identifying industry-specific trends, exploring regional variances,
+					examining demographic and occupational characteristics of laid-off employees, and informing strategic decision-making, stakeholders can develop targeted interventions to support affected workers and enhance organizational resilience.
+				</p>
+			</section>
+
+			<!-- Data Cleaning using SQL -->
+			<section id="datacleaning">
+				<header class="main">
+					<h1 class="chapter-title">Data Cleaning using SQL</h1>
+				</header>
+
+				<p><strong>1. Removing duplicates from data</strong></p>
+				<ul>
+					<li>Utilising the "<strong>ROW_NUMBER</strong>" window function, a common table expression (CTE) was made to determine how many duplicates were present.</li>
+					<li>A new column was added, called "row_num" and each unique value would appear as "1". Any duplicates would appear as "2".</li>
+					<li>5 duplicate data entries were found and were removed from the data.</li>
+				</ul>
+
+				<div style="text-align: center;">
+					<img class="DataSummariseCode" src="assets/sql/SQLCleaning0.png" alt="SQLCleaning0">
+					<img class="SQLMergeCode" src="assets/sql/SQLCleaning0-2.png" alt="SQLCleaning0-2">
+				</div><br />
+
+				<div style="text-align: center;">
+					<img class="DataSummariseCode" src="assets/sql/SQLCleaning1.png" alt="SQLCleaning1">
+					<img class="DataSummariseCode" src="assets/sql/SQLCleaning2.png" alt="SQLCleaning2">
+				</div><br />
+
+				<p><strong>2. Correcting the Data Formatting</strong></p>
+				<ul>
+					<li>The "<strong>TRIM</strong>" function was used on the "company", "stage" and "country" columns.</li>
+					<li>This affected 11 rows of data.</li>
+					<li>Each field category was inspected to ensure that no character errors were present or data entries written in different formats within the same column (e.g. "United States" and "USA" in the "country" column)</li>
+				</ul>
+
+				<p>The screenshots of the SQL queries below showcase the cleaning performed on the data:</p>
+
+				<div style="text-align: center;">
+					<img class="DataSummariseCode" src="assets/sql/SQLCleaning3.png" alt="SQLCleaning3">
+					<img class="DataSummariseCode" src="assets/sql/SQLCleaning4.png" alt="SQLCleaning4">
+				</div><br />
+
+				<p><strong>3. Converting the date into a date format</strong></p>
+				<ul>
+					<li>An error would initially occur when importing date as a "Date" field instead of a "Text" field into MySQL.</li>
+					<li>The date was originally obtained in an American mm/dd/yyyy format.</li>
+				</ul>
+
+				<div style="text-align: center;">
+					<img class="SQLMergeCode" src="assets/sql/SQLCleaning5.png" alt="SQLCleaning5">
+				</div><br />
+
+				<p><strong>4. Addressing Null/Blank Values</strong></p>
+				<ul>
+					<li>4 blank/null entries were found in the "industry" column. As the company name is known, which were "Airbnb", "Bally's Interactive", "Carvana" and "Juul", these were compared against any existing data entries for the same company.</li>
+					<li>3 of the blank/null data entries, "Airbnb", "Carvana" and "Juul", had existing data entries for their respective companies, so the known industry was added into the blank/null field.</li>
+					<li>The "Bally's Interactive" data entry didn't have any pre-existing data entries. Therefore, further research was performed to understand what the company's involvement was. "Bally's Interactive" would fit as "Media" as it is known for its involvement in entertainment and online betting, basing it on the existing list of industries.</li>
+					<li>361 rows of data were deleted where both the total_laid_off and "percentage_laid_off" columns were null, as the null data here would not been particurlarly useful.</li>
+				</ul>
+
+				<div style="text-align: center;">
+					<img class="DataSummariseCode" src="assets/sql/SQLCleaning6.png" alt="SQLCleaning6">
+					<img class="DataSummariseCode" src="assets/sql/SQLCleaning7.png" alt="SQLCleaning7">
+				</div><br />
+
+				<p>After data cleaning, the Alter table option was used in MySQL to remove the "row_num" column. The cleaned data was exported as a .csv file using MySQL's Table Data Export Wizard.</p>
+
+
+			</section>
+
+			<!-- Key Findings and Visualizations using SQL, Python and PowerBI -->
+			<section id="output">
+				<header class="main">
+					<h1 class="chapter-title">Key Findings and Visualizations using SQL, Python and PowerBI</h1>
+				</header>
+				<p><strong>Loading and summarising the data using Pandas</strong></p>
+				<ul>
+					<li>The data was loaded into Python using the "<strong>pd.read_csv()</strong>" Pandas function.</li>
+					<li>Using the "<strong>type()</strong>" function in Python, we can determine that the data is already in a DataFrame format. Therefore, we would not need to construct a DataFrame using "<strong>pd.DataFrame()</strong>".</li>
+					<li>Using the "info()" Pandas function, it is observed that the date appears as an object rather than in a datetime format.
+					<li>The "<strong>to_datetime()</strong>" Pandas function was utilised to covert the date into a date-time format.</li>
+				</ul>
+
+				<p>From the data summary:</p>
+				<ul>
+					<li>There are 1632 unique companies out of 1995 data entries.</li>
+					<li>The data was obtained from companies within 51 countries, with 1294 entries from the United States. This equates to 65% of the gathered data being from the United States. </li>
+					<li>The most common industry was the finance industry, with 239 data entries.</li>
+					<li>The maximum earnings that a company had obtained at one given point was $26 billion.</li>
+					<li>The most people laid off at one given point was 12,000 people.</li>
+					<li>The first data entry was taken at 11/03/2020 and the latest one was taken at 06/03/2023</li>
+				</ul>
+
+				<div style="text-align: center;">
+					<img class="DataSummariseCode" src="assets/python/PythonAnalysis1.png" alt="PythonAnalysis1">
+					<img class="DataSummariseCode" src="assets/python/PythonAnalysis2.png" alt="PythonAnalysis2">
+				</div><br />
+
+				<div style="text-align: center;">
+					<img class="DataSummariseCode" src="assets/python/PythonAnalysis3.png" alt="PythonAnalysis3">
+					<img class="DataSummariseCode" src="assets/python/PythonAnalysis4.png" alt="PythonAnalysis4">
+				</div><br />
+
+				<ul>
+					<li>Surprisingly, 527 out of the 1995 data entries are all based in the San Fransisco Bay Area.</li>
+					<li>A SQL query was created to confirm this finding and to take into account multiple data entries for the same company.</li>
+					<li>The SQL query reveals that 420 unique companies are based in the San Fransisco Bay Area, with the 2nd highest being based in New York City at 170 unique companies.</li>
+				</ul>
+
+				<div style="text-align: center;">
+					<img class="DataSummariseCode" src="assets/python/SQLAnalysis4Python1.png" alt="SQLAnalysis4Python1">
+					<img class="DataSummariseCode" src="assets/python/SQLAnalysis4Python2.png" alt="SQLAnalysis4Python2">
+				</div><br />
+
+				<p><strong>Analysis of the most and least layoffs by industry</strong></p>
+
+				<ul>
+					<li>The Consumer, Retail, Other, Transportation and Finance industries have the largest number of layoffs, with 45182, 43613, 36289, 33748 and 28344 people laid-off, respectively.</li>
+					<li>
+						For the consumer and retail industries, the layoffs are likely due to the increased costs of running large operations. The consumer market includes many companies related to gaming and social media, which
+						require substantial resources to maintain large data servers. The recent trends in 2024, such as the rising cost of electricity, have exacerbated these expenses. To mitigate these increased costs, companies have resorted to laying off employees.
+						Similarly, the video game industry is experiencing higher costs for development, maintenance, and marketing. Consequently, layoffs have become a common strategy to manage these financial pressures.
+					</li>
+					<li>The "Other" category encompasses a diverse range of industries, spanning from technology to transportation. When combined, these sectors contribute significantly to the total number of layoffs.</li>
+					<li>The Manufacturing, Fin-Tech, Aerospace, Energy and Legal industries have the largest number of layoffs, with 20, 215, 661, 802 and 836 people laid-off, respectively.</li>
+					<li>Both the Manufacturing and Fin-Tech industries have relatively low layoff numbers due to their stable nature and lower susceptibility to economic fluctuations.</li>
+					<li>Aerospace, Energy, and Legal industries would experience fewer layoffs due to stable demand from government and business contracts, which require employees with a highly specialised skillset.</li>
+				</ul>
+
+				<div style="text-align: center;">
+					<img class="DataSummariseCodeThree" src="assets/python/PythonAnalysis5.png" alt="PythonAnalysis5">
+					<img class="DataSummariseCodeTwo" src="assets/python/PythonAnalysis6.png" alt="PythonAnalysis6">
+				</div><br />
+
+				<p><strong>Analysis of Which Year Was the Most Profitable for the Top 5 Earning Countries</strong></p>
+				<ul>
+					<li>United States was consistently the highest earning country, with the highest earning year being 2022 for the United States.</li>
+					<li>This is likely due to companies going back to normal operation, following the COVID-19 Pandemic.</li>
+					<li>No data was obtained from China in 2020 but 2020 was the highest earning year for both India and the United Kingdom. This can be attributed to a large rise in online shopping and the increased consumption of online entertainment and media, following the COVID-19 Pandemic lockdowns.</li>
+				</ul>
+
+				<div style="text-align: center;">
+					<img class="DataSummariseCodeThree" src="assets/python/PythonAnalysis7.png" alt="PythonAnalysis7">
+					<img class="DataSummariseCodeFour" src="assets/python/PythonAnalysis8.png" alt="PythonAnalysis8">
+				</div><br />
+
+				<ul>
+					<li>2021 was consistently the lowest performing year for the top 5 earning countries. This can be attributed to a bias in the data, where there was signficantly less data entries dating in 2021. </li>
+					<li>To confirm this, a SQL query was created to count the total number of entries for each date.</li>
+					<li>It can be seen that there was very little data entries in 2021, with only 35 entries, compared to 2020 and 2022, with 532 and 1030, entries respectively.</li>
+				</ul>
+
+				<div style="text-align: center;">
+					<img class="DataSummariseCode" src="assets/python/SQLAnalysis4Python3.png" alt="SQLAnalysis4Python3">
+					<img class="DataSummariseCode" src="assets/python/SQLAnalysis4Python4.png" alt="SQLAnalysis4Python4">
+				</div><br />
+
+				<p><strong>PowerBI Dashboard:</strong></p>
+				<ul>
+					<li>Data visualizations were made using PowerBI to provide insights on some of the data across different countries and industries, with included filters. Additional filters for both the date and company was added.</li>
+					<li>The highest earning earning company across 2020 to 2023 was Uber, earning $123.5 billion. </li>
+					<li>The top country with the highest number of layoffs was the United States. However, this finding is largely due to skewed data, with a large majority of data entries being based in the United States.</li>
+					<li>The highest average percentage of layoffs was found to be the Aerospace industry. However, based on previous findings, this can largely be attributed to both a smaller sample of data from aerospace industries and with aerospace companies being smaller than large comporations. With this, we can gain insight on how layoffs having a bigger impact on the aerospace companies compared to large corporations such as Uber, Meta and Netflix.</li>
+					<li>Interestingly, companies that are earning more money have shown to do less layoffs compared to companies that are losing more money. This is most likely to recoup any lost revenue. An exception to this is Twitter, which has seen a spike in layoffs, most probably due to the acquisition of Twitter by the owner of Tesla, Elon Musk.</li>
+				</ul>
+				<video width="1280" height="720" controls style="display: block; margin: 0 auto;">
+					<source src="videos/PBI_DashboardVideo.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+
+				<!-- Conclusion -->
+				<section id="conclusion">
+					<header class="main">
+						<h1 class="chapter-title">Conclusion</h1>
+					</header>
+
+					<p>
+						This portfolio showcases diverse analytical skills; utilizing SQL for data cleaning, and SQL and Python for in-depth analysis for company sales and employee layoff figures.
+						Python and PowerBI were employed to visualise trends and highlight peak years.
+					</p>
+
+					<p>
+						The dataset, comprising data from 1632 unique companies across 51 countries, revealed significant trends in layoffs, earnings, and industry performance. 
+						While certain industries like Consumer, Retail, and Finance experienced substantial layoffs, others such as Manufacturing and Fin-Tech remained relatively stable. 
+						The dominance of the United States in earnings and layoffs underscores the importance of geographical context in understanding industry dynamics. 
+						Additionally, the PowerBI dashboard provided rich visualizations, highlighting the top-earning companies and the disproportionate impact of layoffs in the Aerospace industry. 
+						Overall, this analysis offers valuable insights into the interplay between economic factors, industry performance, and geographical trends, enabling informed decision-making 
+						for stakeholders across various sectors.
+					</p>
+
+				</section>
+
+</div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
+
